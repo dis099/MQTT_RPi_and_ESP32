@@ -1,0 +1,388 @@
+    1  gsettingss set org.gnome.desktop.input-sources show-all-sources true
+    2  gsettings set org.gnome.desktop.input-sources show-all-sources true
+    3  man sudo_root
+    4  whoami
+    5  history
+    6  pwd
+    7  ls
+    8  ls Embedded/history
+    9  cat Embedded/history/history7
+   10  clear
+   11  history
+   12  clear
+   13  top
+   14  ps
+   15  ps aux
+   16  ps aux > ffile
+   17  egrep 4
+   18  uniq ffile
+   19  uniq ffile > f
+   20  cat f
+   21  sort f
+   22  sort -l f
+   23  ps aux | grep 'firefox'
+   24  kill 2890
+   25  ps aux | grep 'firefox'
+   26  kill 2892
+   27  ps aux | grep 'firefox'
+   28  clear
+   29  ps aux | grep 'firefox'
+   30  kill 4357
+   31  kill 17480
+   32  kill 
+   33  kill -9 4357
+   34  ps aux | grep 'firefox'
+   35  sleep 5
+   36  sleep 5 &
+   37  sleep 50 &
+   38  kill 4400
+   39  top
+   40  sleep 10 &
+   41  top
+   42  sleep 20 &
+   43  top
+   44  nice 
+   45  renice
+   46  renice --help
+   47  sleep 15 &
+   48  sleep 10
+   49  fg 2
+   50  sleep 15 &
+   51  sleep 10
+   52  sllep 15&
+   53  sleep 15 &
+   54  sleep 10
+   55  jobs
+   56  fg 2
+   57  ps
+   58  kill 2389
+   59  ps
+   60  kill 4479
+   61  kill 5279
+   62  ps
+   63  top
+   64  kill 4683
+   65  kill 4489
+   66  top
+   67  kill 1673
+   68  top
+   69  kill 2297
+   70  history
+   71  pwd
+   72  cd Embedded/history
+   73  ls
+   74  history>history8
+   75  ls
+   76  cd ../../
+   77  pwd
+   78  exit
+   79  pwd
+   80  history
+   81  clear
+   82  echo 
+   83  echo Dismas
+   84  vi myscript.sh
+   85  cat myscripy.sh
+   86  vi myscript.sh
+   87  cat myscript.sh
+   88  vi myscript.sh
+   89  pwd
+   90  ls -l myscript.sh
+   91  ./myscript.sh
+   92  ls
+   93  myscript.sh
+   94  echo myscript.sh
+   95  echo myscript.sh hree
+   96  bash myscript.sh
+   97  which bash
+   98  which ls
+   99  which echo
+  100  echp $PATH
+  101  echo $PATH
+  102  chmod 755 myscript.sh
+  103  ls -l
+  104  vi variableexample.sh
+  105  ls -l variableexample.sh
+  106  ls -l
+  107  chmod 755 variableexample.sh
+  108  ./variableexample.sh
+  109  vi morevariables.sh
+  110  chmod 755 morevariable.sh
+  111  chmod 755 morevariables.sh
+  112  ./morevariables.sh
+  113  ./morevariables.sh wale Oni Chucks
+  114  mkdir projectbackups
+  115  cd projectbackups
+  116  ls
+  117  touch projectbackup.sh
+  118  ls
+  119  ls -l
+  120  chmod 755 projectbackup.sh
+  121  ls -l
+  122  ./projectbackup.sh newProject
+  123  mkdir newProject
+  124  ./projectbackup.sh newProject
+  125  clear
+  126  history
+  127  cd home/dismas/Embedded/history
+  128  cd ../../
+  129  pwd
+  130  cd dismas/Embedded/history
+  131  ls
+  132  history>history9
+  133  ls
+  134  touch allHistory
+  135  ls
+  136  touch aa bb
+  137  ls
+  138  cat aa>>bb|>>cc
+  139  ls
+  140  cat aa
+  141  cat bb
+  142  cat cc
+  143  cat aa>>bb|>>cc
+  144  cat aa
+  145  cat bb
+  146  cat cc
+  147  cat aa>>bb|bb>>cc
+  148  cat aa>>bb | bb>>cc
+  149  ls
+  150  cat history9>>history8 
+  151  cat history8>>history7 
+  152  wc -l history9
+  153  wc -l history8
+  154  wc -l history7
+  155  wc -l history6
+  156  cat history7>>history6 
+  157  wc -l history6
+  158  cat history6>>history5 
+  159  cat history3>>history4 
+  160  wc history5
+  161  wc history4
+  162  wc history3
+  163  cat history5>>history4 
+  164  wc history4
+  165  cat history4>>history2 
+  166  cat history2>>history1 
+  167  wc history1
+  168  cat history1
+  169  less history1
+  170  cat history1>>All_History_FILE_Dismas
+  171  cat All_History_FILE_Dismas
+  172  wc history1
+  173  sort history1
+  174  sort history1>>historySorted
+  175  cat history1
+  176  nl history1
+  177  cat historySort
+  178  cat historySortls
+  179  ls
+  180  cat historySorted
+  181  wc  historySorted
+  182  uniq  historySorted
+  183  wc  historySorted
+  184  uniq  historySorted>>again
+  185  wc again
+  186  cat again
+  187  apt lis --upgradable
+  188  apt list --upgradable
+  189  sudo apt upgrade
+  190  history
+  191  sudo apt install build-essential gawk git textinfo bison
+  192  $ sudo apt-get install texinfo
+  193  sudo apt-get install texinfo
+  194  sudo apt install build-essential gawk git textinfo bison
+  195  inxi -r
+  196  sudo apt inxi
+  197  sudo apt install inxi
+  198  inxi -r
+  199  apt-get -f install
+  200  sudo apt-get -f install
+  201  sudo apt install build-essential gawk git textinfo bison
+  202  apt get list installed packages | Ubuntu list installed packages
+  203  apt get list installed packages
+  204  sudo apt get list installed packages
+  205  sudo apt install build-essential gawk git textinfo bison
+  206  sudo apt-get -f install
+  207  apt-get install textinfo-doc-nonfree
+  208  sudo apt-get install textinfo-doc-nonfree
+  209  pwd
+  210  cd ../../
+  211  pwd
+  212  sudo apt-get install textinfo-doc-nonfree
+  213  sudo apt-get install textinfo
+  214  ls -a
+  215  cd var
+  216  pwd
+  217  ls
+  218  cd cache
+  219  ls
+  220  cd apt
+  221  cd archives
+  222  ls
+  223  sudo apt-get install textinfo
+  224  sudo apt-get install textinfo_6.5.0.dfsg.1-4_amd64.deb
+  225  cd ../../
+  226  pwd
+  227  cd home/dismas
+  228  pwd
+  229  cd ..
+  230  pwd
+  231  sudo apt-get install textinfo_6.5.0.dfsg.1-4_amd64.deb
+  232  sudo apt-get install textinfo
+  233  sudo apt install build-essential gawk git textinfo bison
+  234  sudo apt-get install patch
+  235  sudo apt install build-essential gawk git textinfo bison
+  236  sudo apt-get install textinfo
+  237  apt-file search makeinfo
+  238  sudo apt-file search makeinfo
+  239  sudo apt-get install makeinfo
+  240  cd dismas
+  241  pwd
+  242  gcc --version
+  243  ld -v
+  244  ldd -v
+  245  ldd -version
+  246  ldd --version
+  247  mkdir crosscompiler
+  248  cd crosscompiler
+  249  sudo apt update
+  250  sudo apt upgrade
+  251  sudo apt install build-essential gawk git textinfo bison
+  252  sudo apt-get install textinfo
+  253  sudo apt install textinfo
+  254  gcc --version
+  255  ld -v
+  256  ldd -v
+  257  ldd -version
+  258  ldd --version
+  259  cd ~
+  260  pwd
+  261  cd crosscompiler
+  262  wget https://ftpmirror.gnu.org/binutils/binutils-2.28.tar.bz2
+  263  wget https://ftpmirror.gnu.org/gcc/gcc-6.3.0/gcc-6.3.0.tar.gz
+  264  wget https://ftpmirror.gnu.org/glibc/glibc-2.24.tar.bz2
+  265  wget https://ftpmirror.gnu.org/gcc/gcc-8.1.0/gcc-8.1.0.tar.gz
+  266  wget https://ftpmirror.gnu.org/binutils/binutils-2.31.1.tar.bz2
+  267  wget https://ftpmirror.gnu.org/gcc/gcc-6.3.0/gcc-8.2.0.tar.gz
+  268  wget https://ftpmirror.gnu.org/gcc/gcc-8.2.0/gcc-8.2.0.tar.gz
+  269  wget https://ftpmirror.gnu.org/glibc/glibc-2.28.tar.bz2
+  270  wget https://ftpmirror.gnu.org/gcc/gcc-8.1.0/gcc-8.1.0.tar.gz
+  271  git clone --depth=1 https://github.com/raspberrypi/linux
+  272  tar xf binutils-2.31.1.tar.bz2
+  273  tar xf glibc-2.28.tar.bz2
+  274  tar xf gcc-8.2.0.tar.gz
+  275  pwd
+  276  cd crosscompiler
+  277  ls
+  278  rm build-gcc
+  279  rmdir build-gcc
+  280  rm* build-gcc
+  281  rm -r build-gcc
+  282  ls
+  283  mkdir build-gcc && cd build-gcc
+  284  ls
+  285  ../gcc-8.2.0/configure --prefix=/opt/cross-pi-gcc --target=arm-linux-gnueabihf --enable-languages=c,c++,fortran --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-multilib
+  286  make -j8 all-gcc
+  287  make install-gcc
+  288  cd ..
+  289  mkdir build-glibc && cd build-glibc
+  290  ../glibc-2.28/configure --prefix=/opt/cross-pi-gcc/arm-linux-gnueabihf --build=$MACHTYPE --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-headers=/opt/cross-pi-gcc/arm-linux-gnueabihf/include --disable-multilib libc_cv_forced_unwind=yes
+  291  sudo apt install build-essential gawk git texinfo bison
+  292  ../glibc-2.28/configure --prefix=/opt/cross-pi-gcc/arm-linux-gnueabihf --build=$MACHTYPE --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-headers=/opt/cross-pi-gcc/arm-linux-gnueabihf/include --disable-multilib libc_cv_forced_unwind=yes
+  293  make install-bootstrap-headers=yes install-headers
+  294  make -j8 csu/subdir_lib
+  295  install csu/crt1.o csu/crti.o csu/crtn.o /opt/cross-pi-gcc/arm-linux-gnueabihf/lib
+  296  find /usr/ -name crti*
+  297  install x86_64-linux-gnu/crt1.o x86_64-linux-gnu/crti.o x86_64-linux-gnu/crtn.o /opt/cross-pi-gcc/arm-linux-gnueabihf/lib
+  298  install /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/x86_64-linux-gnu/crtn.o /opt/cross-pi-gcc/arm-linux-gnueabihf/lib
+  299  $ export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LIBRARY_PATH
+  300  export LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:$LIBRARY_PATH
+  301  install csu/crt1.o csu/crti.o csu/crtn.o /opt/cross-pi-gcc/arm-linux-gnueabihf/lib
+  302  install /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/lib/x86_64-linux-gnu/crtn.o /opt/cross-pi-gcc/arm-linux-gnueabihf/lib
+  303  rm-linux-gnueabihf-gcc -nostdlib -nostartfiles -shared -x c /dev/null -o /opt/cross-pi-gcc/arm-linux-gnueabihf/lib/libc.so
+  304  arm-linux-gnueabihf-gcc -nostdlib -nostartfiles -shared -x c /dev/null -o /opt/cross-pi-gcc/arm-linux-gnueabihf/lib/libc.so
+  305  sudo apt install gcc-arm-linux-gnueabihf
+  306  arm-linux-gnueabihf-gcc -nostdlib -nostartfiles -shared -x c /dev/null -o /opt/cross-pi-gcc/arm-linux-gnueabihf/lib/libc.so
+  307  touch /opt/cross-pi-gcc/arm-linux-gnueabihf/include/gnu/stubs.h
+  308  cd ..
+  309  cd build-gcc
+  310  make -j8 all-target-libgcc
+  311  make install-target-libgcc
+  312  cd ..
+  313  cd build-glibc
+  314  make -j8
+  315  make install
+  316  cd ..
+  317  cd build-gcc
+  318  make -j8
+  319  make install
+  320  cd ..
+  321  touch test.cpp
+  322  ls
+  323  arm-linux-gnueabihf-g++ test.cpp -o test
+  324  sudo apt install g++-arm-linux-gnueabihf
+  325  arm-linux-gnueabihf-g++ test.cpp -o test
+  326  ls -l
+  327  sudo test
+  328  ls -l
+  329  $ ./test
+  330  ./test
+  331  file test
+  332  sudo cp -r /opt/cross-pi-gcc /opt/cross-pi-gcc-8.2.0
+  333  sudo mkdir -p /opt/gcc-8.2.0
+  334  sudo chown $USER /opt/gcc-8.2.0
+  335  cd ..
+  336  mkdir build-native-gcc8 && cd build-native-gcc8
+  337  ls
+  338  ../gcc-8.2.0/configure --prefix=/opt/gcc-8.2.0 --build=$MACHTYPE --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf --enable-languages=c,c++,fortran --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-multilib --program-suffix=-8.2.0
+  339  ../gcc-8.2.0/configure --prefix=/opt/gcc-8.2.0 --build=$MACHTYPE --host=arm-linux-gnueabihf-gcc --target=arm-linux-gnueabihf-gcc --enable-languages=c,c++,fortran --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-multilib --program-suffix=-8.2.0
+  340  cd ..
+  341  pwd
+  342  cd dismas
+  343  pwd
+  344  ls
+  345  cd crosscompiler
+  346  ls
+  347  arm-linux-gnueabihf-gcc
+  348  arm-linux-gnueabihf-gcc test
+  349  sudo mkdir -p /opt/gcc-8.2.0
+  350  sudo chown $USER /opt/gcc-8.2.0
+  351  cd ..
+  352  mkdir build-native-gcc8 && cd build-native-gcc8
+  353  ls
+  354  cd build-native-gcc8
+  355  ../gcc-8.2.0/configure --prefix=/opt/gcc-8.2.0 --build=$MACHTYPE --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf --enable-languages=c,c++,fortran --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-multilib --program-suffix=-8.2.0
+  356  cd ..
+  357  cd croscompiler
+  358  cd crosscompiler
+  359  ls
+  360  Sudo mkdir -p /opt/gcc-8.1.0
+  361  sudo mkdir -p /opt/gcc-8.1.0
+  362  sudo mkdir -p /opt/gcc-8.2.0
+  363  sudo chown $USER /opt/gcc-8.2.0
+  364  mkdir build-native-gcc8 && cd build-native-gcc8
+  365  ../gcc-8.2.0/configure --prefix=/opt/gcc-8.2.0 --build=$MACHTYPE --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf --enable-languages=c,c++,fortran --with-arch=armv6 --with-fpu=vfp --with-float=hard --disable-multilib --program-suffix=-8.2.0
+  366  make -j 8
+  367  make install-strip
+  368  ls
+  369  cd ~
+  370  pwd
+  371  rm -rf gcc_all
+  372  cd /opt
+  373  ls
+  374  tar -cjvf ~/gcc-8.2.0.tar.bz2 gcc-8.2.0
+  375  cd ~
+  376  sudo apt-get install wine
+  377  pwd
+  378  cd crosscompiler
+  379  ls
+  380  wine test
+  381  wine test.exe
+  382  ls
+  383  wine /home/dismas/crosscompiler/test
+  384  wine /home/dismas/crosscompiler/test.exe
+  385  wine /home/dismas/crosscompiler/test
+  386  cd ~
+  387  history
+  388  history>historytoBeSubmitted
